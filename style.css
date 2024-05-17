@@ -1,0 +1,493 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  display: block;
+}
+
+.hero {
+  background-color: black;
+  width: 100%;
+}
+.hero .link {
+  text-align: center;
+  text-decoration: none;
+}
+.hero .link a {
+  color: white;
+  font-family: bold;
+  text-decoration: none;
+}
+.hero .one h4 {
+  color: white;
+  font-family: thin;
+  padding-top: 40px;
+}
+.hero .one h2 {
+  color: white;
+  font-family: dark;
+  padding-bottom: 20px;
+}
+.hero .one h1 {
+  color: #984300;
+}
+.hero .one h3 {
+  color: #984300;
+  padding-left: 170px;
+}
+.hero .one .b1 {
+  background-color: #FD6F00;
+  color: white;
+  border: 0px;
+  margin-top: 30px;
+  border-radius: 6px;
+}
+.hero .one .b2 {
+  background-color: black;
+  color: #FD6F00;
+  border: 1px solid #FD6F00;
+  margin-top: 30px;
+  border-radius: 6px;
+}
+.hero .one p {
+  background-color: rgba(57, 55, 55, 0.29);
+  color: white;
+  margin-top: 20px;
+  margin-top: 20px;
+  width: 100px;
+  padding: 10px 20p;
+}
+.hero .img-fluid {
+  height: 200px;
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1opx;
+}
+
+.About {
+  background-color: black;
+  width: 100%;
+}
+.About h2 {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+.About .p1 {
+  text-align: center;
+  font-size: small;
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.623);
+}
+.About button {
+  background-color: #FD6F00;
+  color: white;
+  border: 1px solid;
+  font-family: regular;
+}
+.About .P1 {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.596);
+}
+.About p {
+  color: rgba(255, 255, 255, 0.596);
+}
+.About .diff {
+  display: flex;
+  justify-content: center;
+}
+.About .diff img {
+  height: 100%;
+  width: 100%;
+}
+
+.Portifolio {
+  background-color: black;
+}
+.Portifolio .pp {
+  background-color: #FD6F00;
+  width: 180px;
+  margin-left: 53px;
+  margin-top: 40px;
+  color: black;
+  font-family: bold;
+  padding-top: -10px;
+}
+.Portifolio .img-fluid {
+  border-radius: 8px;
+}
+.Portifolio h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: bold;
+  color: white;
+}
+.Portifolio h3 {
+  text-align: center;
+  font-family: light;
+  color: rgba(255, 255, 255, 0.705);
+}
+.Portifolio .para {
+  background-color: rgba(255, 255, 255, 0.0352941176);
+  color: white;
+}
+.Portifolio .dev p {
+  background-color: rgba(128, 128, 128, 0.452);
+  color: white;
+}
+.Portifolio .container .row p {
+  background-color: rgba(128, 128, 128, 0.452);
+  margin-bottom: 20px;
+}
+.Portifolio .container .row .w1 {
+  background-color: #FD6F00;
+  width: 280px;
+  margin-left: 45px;
+  margin-top: 40px;
+  color: black;
+  font-family: bold;
+}
+
+.contact {
+  background-color: black;
+}
+.contact h2 {
+  text-align: center;
+  color: white;
+  font-family: bold;
+  padding-top: 40px;
+}
+.contact p {
+  text-align: center;
+  font-family: medium;
+  font-size: small;
+  color: rgba(255, 255, 255, 0.685);
+}
+.contact .col-md-6 {
+  background-color: black;
+}
+.contact button {
+  background-color: black;
+  color: #FD6F00;
+  border: 1px solid #FD6F00;
+  margin-bottom: 60px;
+  margin-left: 220px;
+  width: 120px;
+  height: 4vh;
+  border-radius: 8px;
+  font-family: bold;
+}
+
+form input {
+  background-color: #1c1c25;
+  color: #FD6F00;
+  border: 0px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 50px;
+  border-radius: 8px;
+}
+form input::-moz-placeholder {
+  color: #FD6F00;
+}
+form input::placeholder {
+  color: #FD6F00;
+}
+form textarea {
+  background-color: #1c1c25;
+  color: #FD6F00;
+  border: 0px;
+  margin-bottom: 10px;
+  width: 350px;
+  border-radius: 8px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: black;
+}
+
+.links {
+  text-align: center;
+  text-decoration: none;
+}
+.links a {
+  color: #FD6F00;
+  font-family: bold;
+  text-decoration: none;
+  font-family: medium;
+  margin-right: 15px;
+}
+
+.last {
+  color: #FD6F00;
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: bold;
+}
+
+.About .diff img {
+  height: 100%;
+  width: 40vh;
+}
+
+.pic img {
+  width: 100%;
+  padding-top: 70px;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .hero {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+  }
+  .hero .link {
+    text-decoration: none;
+  }
+  .hero .link a {
+    color: white;
+    font-family: bold;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: larger;
+  }
+  .hero h4 {
+    color: white;
+    font-family: thin;
+    padding-top: 40px;
+  }
+  .hero h2 {
+    color: white;
+    font-family: dark;
+    padding-bottom: 20px;
+  }
+  .hero h1 {
+    color: #984300;
+  }
+  .hero h3 {
+    color: #984300;
+    padding-left: 170px;
+  }
+  .hero .b1 {
+    background-color: #FD6F00;
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+  }
+  .hero .b2 {
+    background-color: black;
+    color: #FD6F00;
+    border: 1px solid #FD6F00;
+    margin-top: 30px;
+  }
+  .hero p {
+    background-color: rgba(29, 24, 24, 0.29);
+    color: white;
+    margin-top: 20px;
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px 20p;
+  }
+  .hero nav {
+    display: none;
+  }
+  .img-fluid {
+    height: 400px;
+    width: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-top: 60px;
+  }
+  .hero .img-fluid {
+    height: 400px;
+    width: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .icon {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contact h2 {
+    padding-top: 120px;
+  }
+  .contact p {
+    margin-bottom: 70px;
+  }
+  form {
+    text-align: center;
+  }
+  form textarea {
+    width: 350px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-color: #1c1c25;
+  }
+  form input {
+    width: 350px;
+    height: 50px;
+    border-radius: 8px;
+  }
+  form input::-moz-placeholder {
+    padding-left: 30px;
+  }
+  form input::placeholder {
+    padding-left: 30px;
+  }
+  .Portifolio .pp {
+    width: 280px;
+    margin-left: 85px;
+    margin-top: 40px;
+    height: 5vh;
+    padding-top: 15px;
+    border-radius: 8px;
+    padding-left: 50px;
+  }
+  .Portifolio h2 {
+    padding-top: 120px;
+  }
+  .container .row .w1 {
+    background-color: #FD6F00;
+    width: 270px;
+    margin-left: 45px;
+    margin-top: 40px;
+    height: 5vh;
+    padding-top: 15px;
+    border-radius: 8px;
+    padding-left: 6px;
+  }
+  .last {
+    display: ruby-text;
+    margin-top: 30px;
+  }
+  .About button {
+    width: 140px;
+    height: 5vh;
+    border-radius: 8px;
+    border: 0px;
+    margin-top: 20px;
+  }
+  .About .diff {
+    display: flex;
+    justify-content: center;
+    height: 41vh;
+    width: 30px;
+  }
+  .hero .link {
+    padding-top: 10px;
+  }
+  .hero .one {
+    margin-top: 90px;
+    margin-left: 40px;
+  }
+  .hero .one h1 {
+    color: #FD6F00;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hero {
+    padding-bottom: 80px;
+  }
+  .Portifolio .pp {
+    width: 280px;
+    margin-left: 85px;
+    margin-top: 40px;
+    height: 5vh;
+    padding-top: 0px;
+    border-radius: 8px;
+    padding-left: 50px;
+  }
+  .Portifolio h2 {
+    padding-top: 120px;
+  }
+  .container .row .w1 {
+    background-color: #FD6F00;
+    width: 280px;
+    margin-left: 45px;
+    margin-top: 40px;
+    color: black;
+    font-family: bold;
+    padding-top: 0px;
+  }
+  .contact button {
+    margin-left: 760px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+/* Set width to make card deck cards 100% width *//*# sourceMappingURL=style.css.map */
